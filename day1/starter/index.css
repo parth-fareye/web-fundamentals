@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    margin: auto;
+    background-color: blueviolet;
+    width: 93%;
+}
+
+header{
+    text-align: center;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border: 1px solid burlywood;
+    border-radius: 20px;
+    background: chartreuse;
+}
+
+.user-details{
+    display: inline-grid;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.details-label{
+    min-width: 150px;
+}
